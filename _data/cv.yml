@@ -1,0 +1,152 @@
+cv:
+  name: Yichuan Liu
+  label: B.S. Electrical Engineering, Georgia Institute of Technology
+  email: yliu3655@gatech.edu
+  phone: 404-583-2141
+  location: Atlanta, GA
+  image: ""
+  summary: Undergraduate researcher in Electrical Engineering at Georgia Tech, working on GPU/AI accelerator performance, RISC-V hardware verification, and machine learning for power systems reliability.
+
+  social_networks:
+    - network: LinkedIn
+      username: yichuan-liu11
+
+  address:
+    street: ""
+    city: Atlanta
+    region: Georgia
+    postalCode: ""
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: Georgia Institute of Technology
+        location: Atlanta, GA
+        url: https://www.gatech.edu/
+        area: Electrical Engineering
+        studyType: Bachelor of Science
+        start_date: 2023-08
+        end_date: 2027-12
+        score: "GPA 4.00"
+        courses: "Computer Architecture, Machine Learning, Signal Processing, Programming for HW/SW Systems, Signals and Systems, Microelectronics, Digital Design, Circuit Analysis"
+        highlights:
+          - "$10,000 Undergraduate Research Grant"
+          - "NT$7000 Synopsys SNUG Taiwan Presentation Award"
+
+    Experience:
+      - company: NVIDIA
+        position: GPU Performance Engineering Intern
+        location: Santa Clara, CA
+        start_date: 2026-08
+        end_date: 2027-04
+        highlights:
+          - Incoming intern on the Deep Learning and HPC team
+
+      - company: Tenstorrent
+        position: Machine Learning Research Intern (EDA)
+        location: Austin, TX
+        start_date: 2026-05
+        end_date: 2026-08
+        highlights:
+          - Developed WaveformQA, the first benchmark evaluating frontier LLM temporal reasoning on RISC-V waveforms
+          - Applied benchmark insights into internal agentic EDA workflows and increased waveform debug accuracy by 37-53%
+          - Published this research as first-author and presented the findings at Stanford University
+
+      - company: Tenstorrent
+        position: CPU Design Verification Intern
+        location: Austin, TX
+        start_date: 2026-01
+        end_date: 2026-05
+        highlights:
+          - Deployed a novel Reinforcement Learning framework into verification flows for RISC-V AI Accelerators using Bazel
+          - Integrated solution directly into Tenstorrent's active production pipeline, reducing regression runtime by 57%
+          - Led a first-author publication with Synopsys, and received NT$7000 Synopsys Presentation Award
+
+      - company: BMW
+        position: Software Engineering Intern
+        location: Munich, Bavaria
+        start_date: 2024-05
+        end_date: 2024-08
+        highlights:
+          - Developed a data visualization testing application for child presence detection for 10000+ Ethernet and CAN signals
+          - Solution adopted by 3 departments (400+ users) and launched on BMW's server
+          - Led a team of 5 interns, coordinating development tasks and ensuring successful project delivery
+
+    Research:
+      - company: SYNERGY Lab, Georgia Tech
+        position: AI Accelerator Researcher
+        location: Atlanta, GA
+        start_date: 2025-08
+        end_date: 2026-01
+        highlights:
+          - Developed neuro-symbolic AI models that integrate LLMs with PDDL planners for robotics task planning
+          - Benchmarked system performance on CPU/GPU architectures to identify bottlenecks, achieving a 23% reduction in latency and a 5% throughput increase
+
+      - company: PDL Lab, Georgia Tech
+        position: Machine Learning Researcher
+        location: Atlanta, GA
+        start_date: 2024-01
+        end_date: 2026-01
+        highlights:
+          - Developed first generalizable machine learning models (LSTM, biGRU, ElasticNet) in PyTorch to predict metal oxide varistor lifetime with 94.6% accuracy using only 10.5% of early degradation data; led to first-author journal publication
+          - Analyzed 23 billion data points, correlating material degradation with electrical changes for DC MOV Circuit Breaker using regression models and signal processing; led to co-author journal publication
+
+    Awards:
+      - title: Undergraduate Research Grant
+        authors:
+          - "Georgia Institute of Technology"
+        date: 2025
+        awarder: Georgia Institute of Technology
+        summary: "$10,000 grant awarded to support undergraduate research."
+
+      - title: Synopsys SNUG Taiwan Presentation Award
+        authors:
+          - "Synopsys"
+        date: 2026
+        awarder: Synopsys
+        summary: "NT$7000 award for presenting research at SNUG Taiwan, the electronics industry's largest user conference."
+
+    Publications:
+      - title: "WaveformQA: Benchmarking LLM Temporal Reasoning on Digital Waveforms"
+        authors:
+          - Yichuan Liu
+          - D. Cummings
+        publisher: IEEE ICLAD 2026
+        releaseDate: 2026
+        summary: First-author long paper, presented orally at Stanford University.
+
+      - title: "AI-Driven Coverage Optimization for RISC-V MMU Verification"
+        authors:
+          - Yichuan Liu
+          - R. Gehani
+        publisher: SNUG Taiwan
+        releaseDate: 2026
+        summary: First-author oral presentation with Synopsys; received the NT$7000 Synopsys Presentation Award.
+
+      - title: "Early Prediction of Metal Oxide Varistor Lifetime in DC Circuit Breakers using Feature Engineering and Machine Learning"
+        authors:
+          - Yichuan Liu
+          - L. Graber
+        publisher: IEEE Transactions on Industry Applications
+        releaseDate: 2025
+        summary: Under review.
+
+      - title: "Degradation, Lifetime, and Failure Modes of Metal Oxide Varistors in Low-Voltage DC Circuit Breaker Applications"
+        authors:
+          - Yang Liu
+          - K. Chuong
+          - Yichuan Liu
+          - L. Graber
+        publisher: IEEE Transactions on Power Delivery
+        releaseDate: 2025
+
+    Skills:
+      - name: Hardware & Architecture
+        level: Proficient
+        icon: fa-solid fa-microchip
+        keywords: "Computer Architecture, RISC-V, GPU Performance Engineering, Digital Design, Microelectronics"
+
+      - name: Machine Learning
+        level: Proficient
+        icon: fa-solid fa-hashtag
+        keywords: "PyTorch, LSTM, biGRU, ElasticNet, Signal Processing"
