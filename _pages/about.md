@@ -33,4 +33,4 @@ My industry experience spans GPU performance engineering at [NVIDIA](https://www
 
 My research began during my freshman year in Georgia Tech's PDL, where I was fortunate to work with Yang Liu, Prof. Lukas Graber, Prof. Zhi Jin (Justin) Zhang, and Prof. Maryam Saeedifard on machine-learning methods for predicting metal-oxide varistor lifetime in DC circuit breakers. This work led to two papers. I later joined the SYNERGY Lab, where I conducted neuro-symbolic AI research mentored by Prof. Zishen Wan.
 
-<a href='/assets/pdf/resume.pdf'>Full resume →</a>
+<a class="cv-button" href="/assets/pdf/resume.pdf"><i class="fa-solid fa-file-lines"></i> CV</a>

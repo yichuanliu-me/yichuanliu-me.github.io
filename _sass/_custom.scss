@@ -219,6 +219,35 @@ html {
   }
 }
 
+/* --- Prominent CV download button ---------------------------------------- */
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding: 0.55rem 1.5rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border-radius: 0.4rem;
+  border: 2px solid var(--global-theme-color);
+  color: var(--global-theme-color);
+  text-decoration: none;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+
+  &:hover {
+    background-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 1rem;
+  }
+}
+
 /* --- Contact page -------------------------------------------------------- */
 .contact-list {
   margin-top: 1.5rem;
