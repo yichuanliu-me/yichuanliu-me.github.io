@@ -219,6 +219,13 @@ html {
   }
 }
 
+/* Emphasised mission statement in the opening line of the bio. */
+.lead-statement {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
 /* --- Prominent CV download button ---------------------------------------- */
 .cv-button {
   display: inline-flex;
