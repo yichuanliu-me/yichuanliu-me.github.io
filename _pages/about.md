@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.S. Electrical Engineering, Georgia Institute of Technology · 4.00 GPA · Expected Graduation Dec 2027
+subtitle: >
+  B.S. Electrical Engineering, Georgia Institute of Technology<br>4.00 GPA · Expected Graduation Dec 2027
 
 profile:
   align: right

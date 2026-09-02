@@ -26,11 +26,12 @@ html {
    rather than level with the first paragraph of the bio. The subtitle is
    capped in width so the raised photo never overlaps it. */
 .profile {
-  margin-top: -2rem;
+  margin-top: -1.25rem;
 }
 
 .post-header .desc {
-  max-width: 64%;
+  max-width: 62%;
+  line-height: 1.5;
 }
 
 @media (max-width: 576px) {
@@ -254,21 +255,32 @@ html {
   font-weight: 700;
   letter-spacing: 0.02em;
   border-radius: 0.35rem;
-  border: 2px solid var(--global-text-color);
-  color: var(--global-text-color);
+  border: 2px solid #000;
+  color: #000;
   text-decoration: none;
   transition:
     background-color 0.15s ease,
     color 0.15s ease;
 
   &:hover {
-    background-color: var(--global-text-color);
-    color: var(--global-bg-color);
+    background-color: #000;
+    color: #fff;
     text-decoration: none;
   }
 
   i {
     font-size: 0.9rem;
+  }
+}
+
+/* Invert the CV button in dark mode so it stays readable. */
+html[data-theme="dark"] .cv-button {
+  border-color: #fff;
+  color: #fff;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
   }
 }
 
