@@ -127,8 +127,8 @@ cv:
           - Yichuan Liu
           - L. Graber
         publisher: IEEE Transactions on Industry Applications
-        releaseDate: 2025
-        summary: Under review.
+        releaseDate: 2025-12
+        summary: Submitted December 2025, under review.
 
       - title: "Degradation, Lifetime, and Failure Modes of Metal Oxide Varistors in Low-Voltage DC Circuit Breaker Applications"
         authors:
@@ -137,7 +137,8 @@ cv:
           - Yichuan Liu
           - L. Graber
         publisher: IEEE Transactions on Power Delivery
-        releaseDate: 2025
+        releaseDate: 2026-03
+        summary: Co-authored journal publication.
 
     Skills:
       - name: Tools

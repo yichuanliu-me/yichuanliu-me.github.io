@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **AI-Driven Coverage Optimization for RISC-V MMU Verification** was accepted to **SNUG Taiwan 2026** as an oral presentation.
+Our paper **AI-Driven Coverage Optimization for RISC-V MMU Verification** was accepted to **SNUG Taiwan** as an oral presentation.
