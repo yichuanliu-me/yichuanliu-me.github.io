@@ -23,14 +23,23 @@ html {
 }
 
 /* Pull the profile photo up so its top sits just below the name heading
-   rather than level with the first paragraph of the bio. */
+   rather than level with the first paragraph of the bio. The subtitle is
+   capped in width so the raised photo never overlaps it. */
 .profile {
-  margin-top: -3.25rem;
+  margin-top: -2rem;
+}
+
+.post-header .desc {
+  max-width: 64%;
 }
 
 @media (max-width: 576px) {
   .profile {
     margin-top: 0;
+  }
+
+  .post-header .desc {
+    max-width: 100%;
   }
 }
 

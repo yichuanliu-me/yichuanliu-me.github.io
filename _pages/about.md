@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.S. Electrical Engineering, Georgia Institute of Technology · Expected Graduation Dec 2027
+subtitle: B.S. Electrical Engineering, Georgia Institute of Technology · 4.00 GPA · Expected Graduation Dec 2027
 
 profile:
   align: right
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Yichuan, an electrical engineering undergraduate at Georgia Tech (4.00 GPA) <span class="lead-statement">interested in building the next generation of high-performance computing systems.</span>
+Hi, I'm Yichuan, an electrical engineering undergraduate at Georgia Tech <span class="lead-statement">interested in building the next generation of high-performance computing systems.</span>
 
 My industry experience spans GPU performance engineering at [NVIDIA](https://www.nvidia.com/), machine-learning research and RISC-V CPU verification at [Tenstorrent](https://tenstorrent.com/), and software engineering at [BMW](https://www.bmw.com/). At Tenstorrent, I was advised by [Daniel Cummings](https://scholar.google.com/citations?user=Dud0vLwAAAAJ&hl=en) and published two first-author papers and one in collaboration with Synopsys.
 
