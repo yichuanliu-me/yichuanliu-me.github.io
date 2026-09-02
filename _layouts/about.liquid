@@ -42,24 +42,24 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2 id="news">news</h2>
+      <h2 id="news">News</h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Research experience -->
-    <h2 id="research">research experience</h2>
+    <h2 id="research">Research Experience</h2>
     {% include section_research.liquid %}
 
     <!-- Industry experience -->
-    <h2 id="industry">industry experience</h2>
+    <h2 id="industry">Industry Experience</h2>
     {% include section_industry.liquid %}
 
     <!-- Publications -->
-    <h2 id="publications">publications</h2>
+    <h2 id="publications">Publications</h2>
     <div class="publications">{% bibliography %}</div>
 
     <!-- Contact -->
-    <h2 id="contact">contact</h2>
+    <h2 id="contact">Contact</h2>
     {% include section_contact.liquid %}
 
     <!-- Social -->
