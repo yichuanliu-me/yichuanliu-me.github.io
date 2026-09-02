@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be joining **NVIDIA** as a GPU Performance Engineering Intern on the Deep Learning and HPC team, starting August 2026.
+Started as a GPU Performance Engineering Intern at **NVIDIA** in Santa Clara, CA.

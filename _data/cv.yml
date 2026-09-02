@@ -38,9 +38,9 @@ cv:
         position: GPU Performance Engineering Intern
         location: Santa Clara, CA
         start_date: 2026-08
-        end_date: 2027-04
+        end_date: Present
         highlights:
-          - Incoming intern on the Deep Learning and HPC team
+          - Benchmark and optimize deep-learning and HPC workloads on GPUs for latency, throughput, and power efficiency
 
       - company: Tenstorrent
         position: Machine Learning Research Intern (EDA)
@@ -141,12 +141,18 @@ cv:
         releaseDate: 2025
 
     Skills:
-      - name: Hardware & Architecture
-        level: Proficient
-        icon: fa-solid fa-microchip
-        keywords: "Computer Architecture, RISC-V, GPU Performance Engineering, Digital Design, Microelectronics"
+      - name: Tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Synopsys VCS & Verdi, Bazel, Linux, Docker, Git/GitLab, Intel Quartus, GTKWave, Icarus Verilog, Modelsim"
 
-      - name: Machine Learning
-        level: Proficient
-        icon: fa-solid fa-hashtag
-        keywords: "PyTorch, LSTM, biGRU, ElasticNet, Signal Processing"
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, CUDA, Bash, Assembly, C++, MATLAB, SQL"
+
+      - name: ML & Frameworks
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy"
+
+      - name: Hardware
+        icon: fa-solid fa-microchip
+        keywords: "RTL Design, SystemVerilog, FPGA, VLSI, Microprocessors, Logic Analyzers, Oscilloscopes, Multimeters"

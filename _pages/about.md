@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate researcher in Electrical Engineering at the Georgia Institute of Technology (Class of 2027, GPA 4.00), working across GPU/AI accelerator performance, RISC-V hardware verification, and machine learning applications in power systems.
+I am an undergraduate in Electrical Engineering at the Georgia Institute of Technology (GPA 4.00, expected graduation Dec 2027), working across GPU performance engineering, RISC-V hardware verification, and machine learning.
 
-I have interned at [NVIDIA](https://www.nvidia.com/) (incoming, Deep Learning and HPC team), [Tenstorrent](https://tenstorrent.com/) (CPU Design Verification and Machine Learning Research for EDA), and [BMW](https://www.bmw.com/). My research spans agentic EDA workflows for hardware debug, reinforcement learning for RISC-V verification, and machine learning models for predicting metal oxide varistor degradation, resulting in first-author publications at IEEE ICLAD and SNUG Taiwan.
+I am currently a GPU Performance Engineering Intern at [NVIDIA](https://www.nvidia.com/), where I benchmark and optimize deep-learning and HPC workloads on GPUs for latency, throughput, and power efficiency. Previously I interned at [Tenstorrent](https://tenstorrent.com/) in both Machine Learning Research for EDA and CPU Design Verification, and at [BMW](https://www.bmw.com/) in software engineering.
 
-At Georgia Tech, I do research with the [SYNERGY Lab](https://synergylab.gatech.edu/) on neuro-symbolic AI for robotics task planning, and with the PDL Lab on machine learning for power electronics reliability.
+At Georgia Tech, I have done research with the SYNERGY Lab on neuro-symbolic AI models integrating LLMs with PDDL planners for robotics task planning, and with the PDL Lab on machine learning models for predicting metal oxide varistor lifetime in DC circuit breakers.
 
 <a href='/assets/pdf/resume.pdf'>Full resume →</a>
