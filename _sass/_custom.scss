@@ -6,12 +6,24 @@
 
 $soft-rule: 1px solid rgba(128, 128, 128, 0.2);
 
-/* --- Section headings on the about/home page ("news", "selected publications")
-       get a soft rule above them, separating them from the block before. ----- */
+/* --- Section headings on the single-page layout get a soft rule above them,
+       separating them from the block before. ------------------------------- */
 .post > article > h2 {
   border-top: $soft-rule;
   margin-top: 2.75rem;
   padding-top: 1.75rem;
+
+  /* Offset anchor jumps so the fixed navbar does not cover the heading. */
+  scroll-margin-top: 5rem;
+}
+
+/* Smooth scrolling for the in-page navigation links. */
+html {
+  scroll-behavior: smooth;
+}
+
+#top {
+  scroll-margin-top: 6rem;
 }
 
 /* The social icon row closes out the page with its own rule. */

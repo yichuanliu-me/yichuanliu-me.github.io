@@ -12,7 +12,7 @@ profile:
     <p>Atlanta, GA</p>
     <p>yliu3655@gatech.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # publications are rendered in full by the about layout
 social: true # includes social icons at the bottom of the page
 
 announcements:
