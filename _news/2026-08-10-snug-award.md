@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<span class="tag tag-award">award</span> Received the NT$7000 Synopsys Presentation Award at SNUG Taiwan.
+<span class="tag tag-award">Award</span> Received the NT$7000 Synopsys Presentation Award at SNUG Taiwan!

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<span class="tag tag-industry">industry</span> Started as a CPU Design Verification Intern at Tenstorrent in Austin, TX.
+<span class="tag tag-career">Career</span> I join Tenstorrent as a CPU Design Verification Intern at Austin, working on RISC-V AI accelerator verification!

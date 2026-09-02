@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<span class="tag tag-industry">industry</span> Started as a Machine Learning Research Intern (EDA) at Tenstorrent in Austin, TX.
+<span class="tag tag-career">Career</span> I join Tenstorrent as a Machine Learning Research Intern (EDA) at Austin, working on agentic EDA workflows!
