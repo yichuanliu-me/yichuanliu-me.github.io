@@ -1,0 +1,55 @@
+/* -----------------------------------------------------------------------------
+   Site-local customizations
+   Soft hairline dividers between the major page sections and between the
+   individual entries inside the news table and the publication list.
+   -------------------------------------------------------------------------- */
+
+$soft-rule: 1px solid rgba(128, 128, 128, 0.2);
+
+/* --- Section headings on the about/home page ("news", "selected publications")
+       get a soft rule above them, separating them from the block before. ----- */
+.post > article > h2 {
+  border-top: $soft-rule;
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+}
+
+/* The social icon row closes out the page with its own rule. */
+.post > article > .social {
+  border-top: $soft-rule;
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+}
+
+/* --- News: soft rule between each item ---------------------------------- */
+.news table.table tr:not(:last-child) th,
+.news table.table tr:not(:last-child) td {
+  border-bottom: $soft-rule;
+}
+
+.news table.table th,
+.news table.table td {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  vertical-align: top;
+}
+
+/* --- Publications: soft rule between each entry ------------------------- */
+.publications ol.bibliography > li:not(:last-child) {
+  border-bottom: $soft-rule;
+  padding-bottom: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+/* Year headings on the full publications page separate the groups. */
+.publications h2.bibliography {
+  border-top: $soft-rule;
+  margin-top: 2.5rem;
+  padding-top: 1.75rem;
+}
+
+.publications h2.bibliography:first-of-type {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}

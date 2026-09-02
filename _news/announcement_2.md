@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **WaveformQA: Benchmarking LLM Temporal Reasoning on Digital Waveforms** was accepted to IEEE ICLAD 2026 and presented at Stanford University.
+Our paper **WaveformQA: Benchmarking LLM Temporal Reasoning on Digital Waveforms** was accepted to **IEEE ICLAD 2026** as a long paper (oral) and presented at Stanford University.
