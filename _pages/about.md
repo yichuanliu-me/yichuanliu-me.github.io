@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Expected Graduation: Dec 2027</p>
     <p>Atlanta, GA</p>
     <p>yliu3655@gatech.edu</p>
 
@@ -26,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate in Electrical Engineering at the Georgia Institute of Technology (GPA 4.00, expected graduation Dec 2027), working across GPU performance engineering, RISC-V hardware verification, and machine learning.
+Hi, I'm Yichuan, an electrical engineering undergraduate at Georgia Tech (4.00 GPA) interested in building the next generation of high-performance computing systems.
 
-I am currently a GPU Performance Engineering Intern at [NVIDIA](https://www.nvidia.com/), where I benchmark and optimize deep-learning and HPC workloads on GPUs for latency, throughput, and power efficiency. Previously I interned at [Tenstorrent](https://tenstorrent.com/) in both Machine Learning Research for EDA and CPU Design Verification, and at [BMW](https://www.bmw.com/) in software engineering.
+My industry experience spans GPU performance engineering at [NVIDIA](https://www.nvidia.com/), machine-learning research and RISC-V CPU verification at [Tenstorrent](https://tenstorrent.com/), and software engineering at [BMW](https://www.bmw.com/). At Tenstorrent, I was advised by Daniel Cummings and published two first-author papers and one in collaboration with Synopsys.
 
-At Georgia Tech, I have done research with the SYNERGY Lab on neuro-symbolic AI models integrating LLMs with PDDL planners for robotics task planning, and with the PDL Lab on machine learning models for predicting metal oxide varistor lifetime in DC circuit breakers.
+My research began during my freshman year in Georgia Tech's PDL, where I was fortunate to work with Yang Liu, Prof. Lukas Graber, Prof. Zhi Jin (Justin) Zhang, and Prof. Maryam Saeedifard on machine-learning methods for predicting metal-oxide varistor lifetime in DC circuit breakers. This work led to two papers. I later joined the SYNERGY Lab, where I conducted neuro-symbolic AI research mentored by Prof. Zishen Wan.
 
 <a href='/assets/pdf/resume.pdf'>Full resume →</a>
