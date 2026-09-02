@@ -53,3 +53,138 @@ $soft-rule: 1px solid rgba(128, 128, 128, 0.2);
   margin-top: 0;
   padding-top: 0;
 }
+
+/* --- News tags ----------------------------------------------------------
+   Small bracketed labels that categorise each news item. Colours are set
+   with a low-alpha tint so they stay legible in both light and dark mode.
+   ---------------------------------------------------------------------- */
+.tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  padding: 0.05rem 0.4rem;
+  margin-right: 0.3rem;
+  border-radius: 0.25rem;
+  border: 1px solid currentcolor;
+  white-space: nowrap;
+  vertical-align: 0.06rem;
+
+  &::before {
+    content: "[";
+  }
+
+  &::after {
+    content: "]";
+  }
+}
+
+/* Research output — blue */
+.tag-research {
+  color: #2a6fb0;
+  background-color: rgba(42, 111, 176, 0.1);
+}
+
+/* Industry / internships — amber */
+.tag-industry {
+  color: #b3711a;
+  background-color: rgba(179, 113, 26, 0.12);
+}
+
+/* Authorship and presentation qualifiers — neutral greens/purples */
+.tag-first-author {
+  color: #2e7d52;
+  background-color: rgba(46, 125, 82, 0.12);
+}
+
+.tag-co-author {
+  color: #5a7a8c;
+  background-color: rgba(90, 122, 140, 0.12);
+}
+
+.tag-oral {
+  color: #7a4fa3;
+  background-color: rgba(122, 79, 163, 0.12);
+}
+
+/* Awards — red */
+.tag-award {
+  color: #b3402a;
+  background-color: rgba(179, 64, 42, 0.12);
+}
+
+/* --- Research / industry experience pages -------------------------------- */
+.experience .exp-item {
+  border-bottom: $soft-rule;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.experience .exp-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+}
+
+.experience .exp-date {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.experience .exp-org {
+  font-size: 0.92rem;
+  opacity: 0.8;
+  margin-top: 0.15rem;
+  margin-bottom: 0.6rem;
+}
+
+.experience ul {
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+
+  li {
+    margin-bottom: 0.3rem;
+  }
+}
+
+/* Lighten the tag colours slightly against a dark background. */
+html[data-theme="dark"] {
+  .tag-research {
+    color: #7fb3e0;
+  }
+
+  .tag-industry {
+    color: #e0ac60;
+  }
+
+  .tag-first-author {
+    color: #74c398;
+  }
+
+  .tag-co-author {
+    color: #a3bcc9;
+  }
+
+  .tag-oral {
+    color: #bb9ad6;
+  }
+
+  .tag-award {
+    color: #e08a76;
+  }
+}
