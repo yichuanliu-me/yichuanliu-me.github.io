@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.S. Electrical Engineering, Georgia Institute of Technology
+subtitle: B.S. Electrical Engineering, Georgia Institute of Technology · Expected Graduation Dec 2027
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Expected Graduation: Dec 2027</p>
     <p>Atlanta, GA</p>
     <p>yliu3655@gatech.edu</p>
 
@@ -29,8 +28,8 @@ latest_posts:
 
 Hi, I'm Yichuan, an electrical engineering undergraduate at Georgia Tech (4.00 GPA) interested in building the next generation of high-performance computing systems.
 
-My industry experience spans GPU performance engineering at [NVIDIA](https://www.nvidia.com/), machine-learning research and RISC-V CPU verification at [Tenstorrent](https://tenstorrent.com/), and software engineering at [BMW](https://www.bmw.com/). At Tenstorrent, I was advised by Daniel Cummings and published two first-author papers and one in collaboration with Synopsys.
+My industry experience spans GPU performance engineering at [NVIDIA](https://www.nvidia.com/), machine-learning research and RISC-V CPU verification at [Tenstorrent](https://tenstorrent.com/), and software engineering at [BMW](https://www.bmw.com/). At Tenstorrent, I was advised by [Daniel Cummings](https://scholar.google.com/citations?user=Dud0vLwAAAAJ&hl=en) and published two first-author papers and one in collaboration with Synopsys.
 
-My research began during my freshman year in Georgia Tech's PDL, where I was fortunate to work with Yang Liu, Prof. Lukas Graber, Prof. Zhi Jin (Justin) Zhang, and Prof. Maryam Saeedifard on machine-learning methods for predicting metal-oxide varistor lifetime in DC circuit breakers. This work led to two papers. I later joined the SYNERGY Lab, where I conducted neuro-symbolic AI research mentored by Prof. Zishen Wan.
+My research began during my freshman year in Georgia Tech's [PDL](https://graber.ece.gatech.edu/), where I was fortunate to work with Yang Liu, [Prof. Lukas Graber](https://ece.gatech.edu/directory/lukas-graber), [Prof. Justin Zhang](https://ece.ubc.ca/justin-zhang/), and [Prof. Maryam Saeedifard](https://ece.gatech.edu/directory/maryam-saeedifard) on machine-learning methods for predicting metal-oxide varistor lifetime in DC circuit breakers. This work led to two papers. I later joined the [SYNERGY Lab](https://synergy.ece.gatech.edu/), where I conducted neuro-symbolic AI research mentored by [Prof. Zishen Wan](https://zishenwan.github.io/).
 
-<a class="cv-button" href="/assets/pdf/resume.pdf"><i class="fa-solid fa-file-lines"></i> CV</a>
+<a class="cv-button" href="/assets/pdf/resume.pdf"><i class="fa-solid fa-file-lines"></i> CV &mdash; Full Resume</a>
