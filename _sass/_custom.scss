@@ -22,6 +22,18 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Pull the profile photo up so its top sits just below the name heading
+   rather than level with the first paragraph of the bio. */
+.profile {
+  margin-top: -3.25rem;
+}
+
+@media (max-width: 576px) {
+  .profile {
+    margin-top: 0;
+  }
+}
+
 #top {
   scroll-margin-top: 6rem;
 }
